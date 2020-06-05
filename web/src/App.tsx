@@ -1,7 +1,13 @@
 import React from 'react'
 
-function App() {
-  return <div className="App">Learn React</div>
-}
+import Routes from './routes'
 
-export default App
+import './App.css'
+
+export default function App() {
+  return (
+    <div className="App">
+      <Routes />
+    </div>
+  )
+}
