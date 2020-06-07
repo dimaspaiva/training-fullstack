@@ -8,7 +8,7 @@ export default class ItemsControllers {
 
     const serializedItems = items.map((item) => ({
       ...item,
-      imageUrl: `http://localhost:3333/uploads/${item.image}`,
+      imageUrl: `http://192.168.100.65:3333/uploads/${item.image}`,
     }))
 
     return res.json(serializedItems)
